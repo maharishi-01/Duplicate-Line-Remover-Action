@@ -1,4 +1,4 @@
-name: 'Dupicate-Line Remover Action'
+name: 'Duplicate-Line Remover Action'
 description: 'Removing the duplicate line in the given folder and uploads them to arifacts'
 branding:
   icon: 'image'
@@ -7,7 +7,7 @@ inputs:
   input-folder:
     description: 'Folder in which input text are stored'
     required: true
-    default: 'itext'
+    default: 'text'
   output-folder:
     description: 'Folder in which removed text are stored'
     required: true
