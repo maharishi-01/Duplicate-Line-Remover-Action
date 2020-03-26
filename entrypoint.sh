@@ -9,7 +9,7 @@ DIR=$(dirname $OUT)
 mkdir -p "$DIR"
 if [ ! -f $OUT ]; then
 echo "Removing duplicate $IN"
-convert sort $filename | uniq  $2  $OUT
+convert sort $IN | uniq  $2  $OUT
 else
 echo "Removed already."
 fi
