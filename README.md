@@ -5,4 +5,5 @@ Action for remove the duplicate line.An action for  according to the given resol
 you can use this by add this in your yml:-
 
 `- name: Dupicate-Line Remover Action
+
   uses: maharishi1/Duplicate-Line-Remover-Action@v1`
